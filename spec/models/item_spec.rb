@@ -7,4 +7,8 @@ describe Item, type: :model do
     it { should validate_presence_of :price }
     it { should validate_presence_of :image }
   end
+
+  describe "relationships" do
+    it {should belong_to :user}
+  end
 end
