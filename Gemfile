@@ -14,7 +14,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
-gem 'therubyracer'
+gem 'nodejs-rails', '~> 0.0.1'
+gem 'webpacker'
+gem 'bootstrap', '~> 4.3'
+gem 'jquery-rails'
 
 
 group :development, :test do
